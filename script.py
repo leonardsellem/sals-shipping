@@ -43,3 +43,8 @@ def cheapest_shipping(weight):
         print("You can either choose Drone or Premium Ground Shipping. In both case, it will cost you $" + str(pgs_cost))
     else:
         print("You can either choose Ground  or Drone Shipping. In both case, it will cost you $" + str(ds_cost(weight)))
+
+#Test cheapest_shipping function
+#print(cheapest_shipping(4.8))
+#print(cheapest_shipping(41.5))
+#print(cheapest_shipping(2))
