@@ -8,4 +8,4 @@ def gs_cost(weight):
   else:
     return 20.0 + 4.75 * weight
   
-  print(gs_cost(8.4))
+print(gs_cost(8.4))
